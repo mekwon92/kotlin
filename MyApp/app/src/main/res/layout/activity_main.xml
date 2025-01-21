@@ -4,35 +4,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="24dp"
-        android:text="Title"
-        android:layout_marginBottom="16dp"
-        />
-
-    <EditText
-        android:id="@+id/editTextText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:text=""
-        android:hint="이름을 입력하세요"
-        android:padding="8dp"
-        android:layout_marginBottom="16dp"
-        />
-
     <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
+        android:id="@+id/button11"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:backgroundTint="@color/purple_500"
-        android:textColor="@color/white"
-        android:textStyle="bold"
+        android:backgroundTint="#F44336"
         android:text="Button" />
 
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#CDDC39"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="#03A9F4"
+        android:text="Button" />
 </LinearLayout>
